@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(223, 223, 223);
+  }
+
+  .carousel-inner{
+    height: 40%;
+    width: 100%;
+ }
+
+
+.boton-car{
+  background-color: rgb(255, 125, 4); 
+}
+
+.boton-lista{
+  background-color: rgb(202, 0, 51);
+}
+
+ .foot{
+  background-color: rgba(136, 0, 0, 0.849);
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+.bloque-boton{
+  height: 80px;
+  width: 150px;
+  background-color: transparent;
+  justify-content: center;
+  text-align: center;
+}

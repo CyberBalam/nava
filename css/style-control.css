@@ -1,0 +1,234 @@
+.title-nav{
+  font-size: 24px;
+  font-style: italic;
+}
+
+.icono{
+  background-color: rgb(207, 207, 207); 
+  border-radius: 50%; 
+  padding: 4px;
+  width: 50px;
+  height: 50px;
+  justify-self: end;
+}
+
+.t-correo{
+  background-color: rgb(219, 219, 219);
+  padding: 2px;
+  border-radius: 3px;
+  height: 50px;
+}
+
+.parra-card{
+  font-size: 14px;
+  color: rgb(0, 113, 117);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+.parra-info{
+  font-size: 15px;
+  color: rgb(255, 4, 4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+.card-ch{
+  background-color: rgb(252, 255, 238);
+  height: 160px;
+  width: 250px;
+  border-radius: 3px;
+}
+
+.iconos-t{
+  color: rgb(4, 168, 4);
+  font-size: 3rem;
+}
+
+.parra-entrega{
+  display: inline;
+  font-style: italic;
+  color: #32b100;
+  padding-left: 40%;
+}
+
+.parra-rech{
+  display: inline;
+  font-style: italic;
+  color: #b10000;
+  padding-left: 40%;
+}
+
+.foot{
+  background-color: rgba(136, 0, 0, 0.849);
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+
+
+
+/* BARRAS EN CIRCULO */
+.progress-circle {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin:20px;
+  background:#ccc;
+}
+
+.progress-circle > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  line-height: 180px;
+  font-size: 42px;
+  color: #cccccc;
+  display: block;
+  text-align: center;
+}
+.progress-circle:after {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: block;
+  content: " ";
+  border-radius: 50%;
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+}
+.progress-circle .slice {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 180px, 180px, 90px);
+}
+
+.progress-circle.full-circle .slice {
+  clip: rect(0px, 180px, 180px, 0px);
+}
+
+.progress-circle .bar,
+.progress-circle.full-circle .fill {
+  position: absolute;
+  border: 15px solid #00ff6a;
+  width: 180px;
+  height: 180px;
+  clip: rect(0, 90px, 180px, 0);
+  border-radius: 50%;
+}
+
+.progress-circle.full-circle .bar:after,
+.progress-circle.full-circle .fill {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+
+/* CALENDARIO*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td {
+	padding: 0;
+}
+
+.container {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calendar-container {
+	position: relative;
+	width: 450px;
+}
+
+.calendar-container header {
+	border-radius: 1em 1em 0 0;
+	background: #e66b6b;
+	color: #fff;
+	padding: 3em 2em;
+}
+
+.day {
+	font-size: 8em;
+	font-weight: 900;
+	line-height: 1em;
+}
+
+.month {
+	font-size: 4em;
+	line-height: 1em;
+	text-transform: lowercase;
+}
+
+.calendar {
+	background: #fff;
+	border-radius: 0 0 1em 1em;
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+	color: #555;
+	display: inline-block;
+	padding: 2em;
+}
+
+.calendar thead {
+	color: #e66b6b;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.calendar td {
+	padding: .5em 1em;
+	text-align: center;
+}
+
+.calendar tbody td:hover {
+	background: #cacaca;
+	color: #fff;
+}
+
+.current-day {
+	color: #e66b6b;
+}
+
+.prev-month,
+.next-month {
+	color: #cacaca;
+}
+
+.ring-left,
+.ring-right {
+	position: absolute;
+	top: 230px;
+}
+
+.ring-left { left: 2em; }
+.ring-right { right: 2em; }
+
+.ring-left:before,
+.ring-left:after,
+.ring-right:before,
+.ring-right:after {
+	background: #fff;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+	content: "";
+	display: inline-block;
+	margin: 8px;
+	height: 32px;
+	width: 8px;
+}

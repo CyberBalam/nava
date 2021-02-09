@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style-control.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>Control de sesión</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark bg-danger shadow">
+    <div class="container-fluid">
+      <button class="btn btn-outline-light mr-5" type="button"><i class="bi bi-gear-fill"></i></button>
+      <span class="navbar-brand mb-0 h1 title-nav">Sesión de Usuario</span>
+      <p class="t-correo"> Correo_ejemplo@hotmail.com <i class="bi bi-person-square ml-3" style="font-size: 2rem; color: rgb(141, 0, 0);"></i></p>
+      <a class="navbar-brand" href="#">
+        <img src="rec/emblema.png" class="icono shadow-sm" alt="">
+      </a>
+    </div>
+  </nav>
+
+
+  <!--Tarjetas pequeñas-->
+  <div class="row justify-content-center mb-4 mt-5">
+
+    <!-- Primera card -->
+    <div class="col-lg-2 d-none d-lg-block card-ch ml-3 mr-3 shadow-sm">
+
+      <div class="row justify-content-center mt-4 mb-4 ">
+
+        <div class="col d-block-inline ml-4">
+          <p class="parra-card">Ultimo inicio de Sesion</p>
+          <p class="parra-info">Hace 2 Dias</p>
+        </div>
+        <div class="col iconos-t d-block-inline">
+          <i class="bi bi-alarm"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--2 card -->
+    <div class="col-lg-2 d-none d-lg-block card-ch ml-3 mr-3 shadow-sm">
+
+      <div class="row justify-content-center mt-4 mb-4 ">
+
+        <div class="col d-block-inline ml-4">
+          <p class="parra-card">Ultimo Pedido</p>
+          <p class="parra-info">Hace 3 Semanas</p>
+        </div>
+        <div class="col iconos-t d-block-inline">
+          <i class="bi bi-calendar2-week"></i>
+        </div>
+
+      </div>
+
+    </div>
+    <!--3 card -->
+    <div class="col-lg-2 d-none d-lg-block card-ch ml-3 mr-3 shadow-sm">
+
+      <div class="row justify-content-center mt-4 mb-4 ">
+
+        <div class="col d-block-inline ml-4">
+          <p class="parra-card">$550</p>
+          <p class="parra-info">En Total en tu Monedero</p>
+        </div>
+        <div class="col iconos-t d-block-inline">
+          <i class="bi bi-cash-stack"></i>
+        </div>
+
+      </div>
+
+    </div>
+    <!--4 card -->
+    <div class="col-lg-2 d-none d-lg-block card-ch ml-3 mr-3 shadow-sm">
+
+      <div class="row justify-content-center mt-3 mb-3 ">
+
+        <div class="col d-block-inline ml-2">
+          <p class="parra-card">2500 Puntos</p>
+          <p class="parra-info">De la Tienda</p>
+        </div>
+        <div class="col iconos-t d-block-inline">
+          <i class="bi bi-credit-card-2-back"></i>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--Graficas y estadisticas, calendario-->
+  <div class="row justify-content-center mt-5 shadow">
+    
+
+    <div class="col-lg-2 d-none d-lg-block " style="background-color: white;">
+
+      <h5 style="text-align: center;">Experiencias Positivas</h5>
+      <!--Grafica en circulo-->
+      <div class="progress-circle full-circle">
+        <span>85%</span>
+        <div class="slice">
+          <div class="bar" style="transform: rotate(290deg);"></div> <!--En rotate se mueve la progresion-->
+          <div class="fill"></div>
+        </div>
+      </div>
+      
+    </div>
+      
+      
+    <div class="col-lg-4 col-10 d-block-inline" style="background-color: white;">
+      <!--Lista-->
+      <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+          Entregas Exitosas Realizadas
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 02/06/2020 <p class="parra-entrega">Entregado</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 12/08/2020 <p class="parra-entrega">Entregado</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 05/09/2020 <p class="parra-entrega">Entregado</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 10/12/2020 <p class="parra-entrega">Entregado</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 20/12/2020 <p class="parra-entrega">Entregado</p></button>
+        <button type="button" class="list-group-item list-group-item-action active bg-danger" aria-current="true">
+          Devoluciones
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 15/05/2020 <p class="parra-rech">Devolusión</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 17/09/2020 <p class="parra-rech">Devolusión</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 08/12/2020 <p class="parra-rech">Devolusión</p></button>
+      </div>
+    </div>
+
+    
+    <div class="col-lg-5 col-10 bg-light mt-2 mr-2 ml-2">
+
+      <!--Calendario-->
+      <div class="calendar-container">
+
+        <header>
+          
+          <div class="day">18</div>
+          <div class="month">August</div>
+    
+        </header>
+    
+        <table class="calendar">
+          
+          <thead>
+    
+            <tr>
+    
+              <td>Mon</td>
+              <td>Tue</td>
+              <td>Wed</td>
+              <td>Thu</td>
+              <td>Fri</td>
+              <td>Sat</td>
+              <td>Sun</td>
+    
+            </tr>
+    
+          </thead>
+    
+          <tbody>
+    
+            <tr>
+              <td class="prev-month">29</td>
+              <td class="prev-month">30</td>
+              <td class="prev-month">31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+    
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+            </tr>
+    
+            <tr>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td class="current-day">18</td>
+            </tr>
+    
+            <tr>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+            </tr>
+    
+            <tr>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td class="next-month">1</td>
+            </tr>
+    
+          </tbody>
+    
+        </table>
+    
+        <div class="ring-left"></div>
+        <div class="ring-right"></div>
+    
+      </div> <!-- end calendar-container -->
+
+    </div>
+
+
+  </div>
+
+<!--  SEGUNA GRAFICA CON DATOS
+  <div class="row justify-content-center d-block-inline bg-warning">
+
+    <div class="col-2 d-block">
+      <h5 style="text-align: center;">Experiencias Negativas</h5>
+      
+      <div class="progress-circle full-circle bg-danger">
+        <span>15%</span>
+        <div class="slice">
+          <div class="bar" style="transform: rotate(290deg);"></div> 
+          <div class="fill"></div>
+        </div>
+      </div>
+    </div>
+      
+      
+    <div class="col-4 d-block-inline">
+      
+      <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+          Devoluciones de Productos
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 15/05/2020 <p class="parra-rech">Devolusión</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 17/09/2020 <p class="parra-rech">Devolusión</p></button>
+        <button type="button" class="list-group-item list-group-item-action">Entrega de 08/12/2020 <p class="parra-rech">Devolusión</p></button>
+      </div>
+    </div>
+
+
+  </div> -->
+
+  <div class="row justify-content-center mt-5 shadow">
+
+    <div class="col-lg-4 col-10 mt-3 ml-2 mr-2 shadow" style="background-color: white;">
+      <h3>Sigue tu Paquete en Tiempo Real</h3>
+      <hr>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240863.68495829677!2d-99.283696851372!3d19.391003836427828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1611953720990!5m2!1ses!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      </iframe>
+    </div>
+
+    <div class="col-lg-6 col-10 ml-2 mr-2 shadow" style="background-color: white;">
+      <h4>Revisa las Actualizaciones de tu Paquete</h4>
+      <br>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">30%</div>
+      </div>
+
+      <table class="table table-dark mt-5 mb-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Hora</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Ubicación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>9:00 a.m.</td>
+            <td>29/01/2021</td>
+            <td>Lorem ipsum dolor 65p sit amet #13655 consectetur, adipisicing elit.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>12:30 p.m.</td>
+            <td>29/01/2021</td>
+            <td>Lorem ipsum dolor 65p sit amet #13655 consectetur, adipisicing elit.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>4:00 p.m.</td>
+            <td>29/01/2021</td>
+            <td>Lorem ipsum dolor 65p sit amet #13655 consectetur, adipisicing elit.</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>8:00 p.m.</td>
+            <td>29/01/2021</td>
+            <td>Lorem dolor 90 pte. #16320 consectetur, adipisicing elit.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+
+  </div>
+
+
+
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+</body>
+
+<footer class="foot">
+  <div class="row">
+
+    <div class="col-lg-2 col-12 mt-3">
+      <img src="rec/emblema.png" style="height: 120px; width: 120px;" alt="">
+    </div>
+
+    <ul class="col-lg-2 col-4 list-unstyled mt-3">
+      <li class="font-weight-bold text-uppercase">navajas wolf</li>
+      <li><a href="#" class="text-reset text-capitalize">Crea tu navaja</a></li>
+      <li><a href="#" class="text-reset text-capitalize">Estuches y accesorios</a></li>
+      <li><a href="#" class="text-reset text-capitalize">Registra tus tikets</a></li>
+    </ul>
+
+    <ul class="col-lg-2 col-4 list-unstyled mt-3">
+      <li class="font-weight-bold text-uppercase">productos</li>
+      <li><a href="#" class="text-reset text-capitalize">navajaas suizas</a></li>
+      <li><a href="#" class="text-reset text-capitalize">cuchillos</a></li>
+      <li><a href="#" class="text-reset text-capitalize">relojes</a></li>
+      <li><a href="#" class="text-reset text-capitalize">accesorios</a></li>
+      <li><a href="#" class="text-reset text-capitalize">calzado</a></li>
+    </ul>
+
+    <ul class="col-lg-2 col-4 list-unstyled mt-3">
+      <li class="font-weight-bold text-uppercase">servicios</li>
+      <li><a href="#" class="text-reset text-capitalize">soporte tecnico</a></li>
+      <li><a href="#" class="text-reset text-capitalize">localizador de tiendas</a></li>
+      <li><a href="#" class="text-reset text-capitalize">contacto</a></li>
+      <li><a href="#" class="text-reset text-capitalize">mi cuenta</a></li>
+    </ul>
+
+
+
+    <div class="col-lg-4 col-12 mt-3 mb-lg-0 mb-5">
+      <h3 class="text-capitalize mb-lg-3 mb-5">siguenos en:</h3>
+      <a href="https://www.facebook.com/" target="_blank"><img src="rec/logo-face.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="rec/logo-insta.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+      <a href="https://www.whatsapp.com/" target="_blank"><img src="rec/logo-wats.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+      <a href="https://www.youtube.com/" target="_blank"><img src="rec/logo-yout.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+      
+    </div>
+
+  </div>
+
+
+</html>

@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="png"  href="rec/logo-nav-wolf.png">
+    <title>Navajas Wolf</title>
+
+  </head>
+
+
+  <body>
+    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning shadow-sm">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Lo Nuevo</a></li>
+                  <li><a class="dropdown-item" href="#">Lo más buscado</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+            </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="searc" placeholder="Buscar Producto" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                  </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row justify-content-center mt-3 shadow" style="background-color: rgb(255, 0, 0);">
+
+       
+          <button type="button" class="btn btn-light d-inline-block mt-2 mb-2 ml-3" style=" color: rgb(104, 104, 104);"><a href="nava.html" target="_blank">Navajas</a></button>
+          <button type="button" class="btn btn-light d-inline-block mt-2 mb-2 ml-3" style=" color: rgb(104, 104, 104);"><a href="knife.html" target="_blank">Cuchillos</a></button>
+          <button type="button" class="btn btn-light d-inline-block mt-2 mb-2 ml-3" style=" color: rgb(104, 104, 104);"><a href="tokei.html" target="_blank">Relojes</a></button>
+          <button type="button" class="btn btn-light d-inline-block mt-2 mb-2 ml-3" style=" color:rgb(104, 104, 104);"><a href="accesorios.html" target="_blank">Todos los Artículos</a></button>
+          <button type="button" class="btn btn-light d-inline-block mt-2 mb-2 ml-3" data-bs-toggle="modal" data-bs-target="#modal-sesion">Iniciar Sesión</button>
+        </div>
+
+      </div>  <!--FINAL DE NAVBAR-->
+
+
+      <!--MODAL INICIO DE SESIÓN-->
+      <form method="POST" action="/proyectosphp/p-navajas-hover1/panel-control.html" target="_blank">
+
+      <div class="modal fade" id="modal-sesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content" style="background-color: transparent;">
+            
+            <div class="form">
+              <div class="title">
+                  Inicio de sesión
+              </div>
+              <div class="subtitle">
+                  Complete el formulario con la información rquerida
+              </div>
+              <div class="input_container ic1">
+                  <input type="text" id="nombre" name="nombre" class="input" placeholder=" ">
+                  <div class="cut">
+      
+                  </div>
+                  <label for="nombre" class="placeholder">
+                      Nombre
+                  </label>
+              </div>
+      
+              <div class="input_container ic2" >
+                  <input type="email" id="email" name="email" class="input" placeholder=" ">
+                  <div class="cut">
+      
+                  </div>
+                  <label for="email" class="placeholder">
+                      E-mail o correo
+                  </label>
+              </div>
+      
+              <div class="input_container ic2">
+                  <input type="password" id="password" name="password" class="input" placeholder=" ">
+                  <div class="cut cut-short">
+      
+                  </div>
+                  
+                  <label for="password" class="placeholder">
+                      Contraseña
+                  </label>
+              </div>
+              
+              <button class="btn btn-primary" type="submit">Iniciar sesión</button>
+            
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+      <!--LOGOTIPO Y OTROS ADITAMENTOS-->
+
+      <div class="row justify-content-center">
+
+        <div class="col-10 col-lg-2 text-center">
+            <img src="rec/emblema.png" alt="" id="log-im" class="d-inline-block align-top" style="width: 80%;">
+            <p class="d-none d-lg-block" >Navajas Wolf</p>
+        </div>
+
+        <!--CARRUSEL-->
+        <div class="col-lg-6 d-none d-lg-block">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3" data-bs-ride="carousel">
+            <div class="carousel-inner mt-3">
+              <div class="carousel-item active">
+                <img src="rec/nav-car-3.jpg" class="d-block" id="ima-car" alt="...">
+              </div>
+              <div class="carousel-item  mt-3">
+                <img src="rec/nav-car-2.jpg" class="d-block" id="ima-car"alt="...">
+              </div>
+              <div class="carousel-item  mt-3" >
+                <img src="rec/nav-car-1.jpg" class="d-block" id="ima-car" alt="...">
+              </div>
+            </div>
+            <hr>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    
+      <!--TARTJETAS CON HOVER-->
+      <div class="row justify-content-center">
+        <div class="col-lg-8 d-none d-lg-block">
+          <div class="card bg-dark text-white">
+            <img src="rec/im-viaja-1.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay" style="background: rgba(255, 0, 0, 0.541); height: 40%; margin-top: auto;">
+              <h5 class="card-title">Siempre junto a ti, en tus aventuras.</h5>
+              <p class="card-text">Mandanos tu foto para que seas parte de nuestras redes sociales y cuenta todas tus historias al mundo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      
+      <div class="row justify-content-center wrapper" style="margin-top: 1%;">
+
+        <div class="col-lg-5 d-none d-lg-block">
+
+          <div class="parentV2" onclick="">
+            <div class="child bg-one">
+            </div>
+            <div class="card-img-overlay" style="background: rgba(255, 0, 0, 0.541); height: 20%; margin-top: auto;">
+              <h5 class="card-title text-white">Compra y Gana viajes.</h5>
+              <p class="card-text text-white">Con tu codiogo de barras  ingresa a nuestra pagina y da de alta tu codigo para ganar viajes a todo el mundo.</p>
+            </div>
+          </div>
+
+        </div>
+
+        
+
+        <div class="col-lg-3 d-none d-lg-block">
+          
+          
+          <div class="card parent" onclick="">
+            <div class="child bg-two">
+            </div>
+            <div class="card-img-overlay" style="background: rgba(255, 0, 0, 0.541); height: 40%; margin-top: auto;">
+              <h5 class="card-title text-white">Estuches y accesorios</h5>
+              <p class="card-text text-white">Siempre a la moda y funcional</p>
+            </div>
+          </div>
+
+          <div class="card parent mt-3" onclick="">
+            <div class="child bg-three">
+            </div>
+            <div class="card-img-overlay" style="background: rgba(255, 0, 0, 0.541); height: 40%; margin-top: auto;">
+              <h5 class="card-title text-white">Crea tu propia navaja Suiza.</h5>
+              <p class="card-text text-white">Mandanos tus ideas y personaliza tu navaja suiza como tu quieras y a tu estilo.</p>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        
+      </div>
+
+      <hr>
+
+      <!--INFORMACION-->
+      <div class="row justify-content-center">
+
+        <div class="col-8 mt-5">
+          <h3 class="text-center text-capitalize mb-lg-0 mb-3">Acerca de Navajas Wolf</h3>
+          <p class="text-justify lh-sm mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+          </p>
+        </div>
+
+        </div>
+  
+      </div>
+
+      <div class="row d-block-inline justify-content-center">
+
+        <div class="col-3 mt-2 mr-5">
+          <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal-info">Conoce más de nosotros</button>
+        </div>
+
+      </div>
+
+      <!--MODAL MAS INFORMACION-->
+      
+      <div class="modal fade" id="modal-info" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content" style="background-color: rgb(175, 175, 175);">
+            <div class="modal-header" style="background-color: rgb(207, 207, 207);">
+              <h5 class="modal-title" id="staticBackdropLabel">Historia de Navajas Wolf</h5>
+              
+            </div>
+            <div class="modal-body">
+              <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora quod omnis saepe, officiis, autem numquam, itaque eaque ipsa necessitatibus voluptas. Esse magnam tempore repudiandae possimus deleniti a ducimus corrupti!
+              Ipsum, facilis asperiores! Quos veniam odio placeat, distinctio voluptatem quod ut inventore? Reprehenderit laudantium amet, ab quisquam voluptatibus magni sequi quo, atque aut blanditiis ad id ducimus eius quia obcaecati!
+              Dolorum aliquid quibusdam doloremque eveniet. Quia maxime cumque possimus dignissimos accusamus! Beatae minima rem exercitationem excepturi? Maxime fuga cum vero obcaecati molestiae, ullam aliquam repellat quasi est voluptatibus illum nisi?
+              Numquam, repellendus nostrum sit quaerat doloribus qui inventore tempora, temporibus rerum consequuntur et? Fugiat, voluptate nisi? Eos corrupti dignissimos aliquid deleniti nam illum tempore, nulla repellat nobis rerum omnis nesciunt.
+              Ex quo voluptate quidem at sit alias explicabo atque molestiae rerum laudantium fugiat, hic libero rem? Accusantium numquam illum, reiciendis ipsa facere repellendus, eligendi et consectetur nulla a quam fugit.
+              Explicabo nisi, in pariatur repellendus sequi sit. Incidunt ratione ducimus, ut asperiores tempore repellat itaque inventore aperiam quis recusandae odit illum totam consectetur! Iusto delectus nisi vitae voluptatem, eaque neque.
+              Quidem nihil, eligendi tempora deserunt rem obcaecati qui laudantium unde eius libero soluta perferendis veniam doloremque delectus accusamus quas ea blanditiis ab exercitationem quisquam error velit? Tenetur sunt excepturi voluptatem.
+              Culpa magni adipisci aperiam repudiandae sequi in, recusandae quos molestiae reiciendis? Delectus error voluptate sequi ipsam magnam. Eos eligendi dolor beatae voluptatem facere repellendus ullam odio maiores, enim, iure eum.
+              Tenetur vel sunt, quis sed delectus animi ratione quibusdam quia quo nemo corporis dignissimos ipsum nulla provident sint laboriosam? Veritatis autem ut tempore dignissimos nobis voluptatibus officiis at assumenda quidem!
+              Mollitia minus, atque distinctio, reiciendis nisi repellendus numquam quam facilis veritatis nobis nihil iusto! Eos, magnam! Non rerum perferendis ratione velit ea dignissimos, numquam repudiandae inventore vero quisquam temporibus aliquam.
+              Nemo minus magni, repudiandae incidunt, placeat aspernatur eum a esse delectus sint adipisci? Sequi commodi laborum accusantium harum recusandae rem iure quasi labore eius. Sunt architecto neque error natus. Esse?
+              Velit illum, ipsum perferendis odio omnis porro magni rem excepturi magnam eius, inventore accusantium consequatur repellendus nisi facilis, accusamus voluptates. Eius ipsa, eligendi ad fuga quo odit rerum accusamus. Commodi!
+              Porro optio explicabo nulla. Temporibus neque tenetur totam! Blanditiis quos eius odit, asperiores iste quis nihil suscipit voluptas molestias, ab cumque mollitia vero sapiente dolor aut at, corrupti officiis optio.
+              Officia provident rem illum nemo labore. Nostrum amet debitis aliquam perspiciatis cumque similique nemo. Amet, debitis, libero sint sit earum officia itaque iusto repellat ut ipsa, placeat explicabo aliquid! Magnam.
+              Ipsam, repudiandae ducimus. Enim iure, officia natus, commodi quam itaque facere atque non voluptates totam doloremque sunt sapiente est, similique at laudantium dolorem sit dolor nisi praesentium repudiandae impedit molestias?
+              </p>
+            </div>
+            <div class="modal-footer" style="background-color: rgb(207, 207, 207);">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+
+      <!--LISTA DE PRODUCTOS-->
+      <div class="row justify-content-center mt-5" id="lista-art">
+        <h2 class="text-center text-capitalize" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Conoce Nuestros Productos</h2>
+      </div>
+
+      <hr>
+
+     <div class="row justify-content-center mt-5">
+
+      <div class="col-8 mb-3 col-lg-4 mb-lg-0">
+        <a href="nava.html" target="_blank"><img src="rec/prod-nava-m.jpg" class="ima-prod rounded" style="height: 100%; width: 100%; margin-left: 1%;" alt=""></a>
+      </div>
+
+      <div class="col-8 col-lg-4">
+        <a href="tokei.html" target="_blank"><img src="rec/prod-relo-m.jpg" class="rounded" style="height: 100%; width: 100%; margin-left: 1%;" alt=""></a>
+      </div>
+
+     </div>
+
+     <div class="row justify-content-start mt-3">
+
+      <div class="col-4" style="margin-left: 17%;">
+        <a href="knife.html" target="_blank"><img src="rec/prod-knife-m.jpg" class="rounded" style="height: 100%; width: 100%;" alt=""></a>
+
+      </div>
+
+      <div class="row d-inline-block">
+
+        <div class="col-4" style="position: absolute;">
+          <a href="accesorios.html" target="_blank"><img src="rec/prod-acce-m.jpg"  class=" rounded mb-2 mb-3" style="height: 100%; width: 100%;" alt=""></a>
+          <a href="accesorios.html" target="_blank"><img src="rec/prod-calza-m.jpg" class=" rounded mt-2 mb-2" style="height: 100%; width: 100%;" alt=""></a>
+        </div>
+  
+       </div>
+
+     </div>
+     <div class="row justify-content-center mt-4">
+     <button type="button" class="btn-lg" style="background-color: crimson; color: white;">Todos Nuestros Productos</button>
+     </div>
+     <hr>
+
+     <!--EMBLEMAS DE ENVIO Y COMPRA-->
+     <div class="row justify-content-center mt-5" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+       <div class="col-lg-2 mt-3 ml-3 mr-3 mb-3 col-md-4 col-12 d-block-inline">
+        <img src="rec/compra-logo.png" style="height: 100px; width: 100px;" alt="">
+        <p class="text-capitalize fw-bolder lh-sm mt-2">compra donde quieras</p>
+       </div>
+
+       <div class="col-lg-2 mt-3 ml-3 mr-3 mb-3 col-md-4 col-12 d-block-inline">
+        <img src="rec/envio-logo.png" style="height: 100px; width: 100px;" alt="">
+        <p class="text-capitalize fw-bolder lh-sm mt-2">envio gratis a partir de $1000 pesos</p>
+       </div>
+
+       <div class="col-lg-2 mt-3 ml-3 mr-3 mb-3 col-md-4 col-12 d-block-inline">
+        <img src="rec/pago-seg-logo.png" style="height:150px; width:150px;" alt="">
+       </div>
+
+       <div class="col-lg-2 mt-3 ml-3 mr-3 mb-0 col-md-4 col-12 d-block-inline">
+        <img src="rec/devol-logo.png" style="height: 90px; width: 100px;" alt="">
+        <p class="text-capitalize fw-bolder lh-sm mt-2">devoluciones garantizadas y seguras</p>
+       </div>
+
+     </div>
+
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+
+      $("#nav-product").click(function() {
+      $([document.documentElement, document.body]).animate({
+            scrollTop: $("#lista-art").offset().top
+        }, 1600);
+      });
+
+
+
+
+
+
+    </script>
+ 
+  </body>
+
+  <footer class="foot">
+    <div class="row">
+
+      <div class="col-lg-2 col-12 mt-3">
+        <img src="rec/emblema.png" style="height: 120px; width: 120px;" alt="">
+      </div>
+
+      <ul class="col-lg-2 col-4 list-unstyled mt-3">
+        <li class="font-weight-bold text-uppercase">navajas wolf</li>
+        <li><a href="#" class="text-reset text-capitalize">Crea tu navaja</a></li>
+        <li><a href="#" class="text-reset text-capitalize">Estuches y accesorios</a></li>
+        <li><a href="#" class="text-reset text-capitalize">Registra tus tikets</a></li>
+      </ul>
+
+      <ul class="col-lg-2 col-4 list-unstyled mt-3">
+        <li class="font-weight-bold text-uppercase">productos</li>
+        <li><a href="#" class="text-reset text-capitalize">navajaas suizas</a></li>
+        <li><a href="#" class="text-reset text-capitalize">cuchillos</a></li>
+        <li><a href="#" class="text-reset text-capitalize">relojes</a></li>
+        <li><a href="#" class="text-reset text-capitalize">accesorios</a></li>
+        <li><a href="#" class="text-reset text-capitalize">calzado</a></li>
+      </ul>
+
+      <ul class="col-lg-2 col-4 list-unstyled mt-3">
+        <li class="font-weight-bold text-uppercase">servicios</li>
+        <li><a href="#" class="text-reset text-capitalize">soporte tecnico</a></li>
+        <li><a href="#" class="text-reset text-capitalize">localizador de tiendas</a></li>
+        <li><a href="#" class="text-reset text-capitalize">contacto</a></li>
+        <li><a href="#" class="text-reset text-capitalize">mi cuenta</a></li>
+      </ul>
+
+
+
+      <div class="col-lg-4 col-12 mt-3 mb-lg-0 mb-5">
+        <h3 class="text-capitalize mb-lg-3 mb-5">siguenos en:</h3>
+        <a href="https://www.facebook.com/" target="_blank"><img src="rec/logo-face.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="rec/logo-insta.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><img src="rec/logo-wats.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="rec/logo-yout.png" class="ml-2 mr-2" style="height: 50px; width: 50px;" alt=""></a>
+        
+      </div>
+
+    </div>
+
+
+  </footer>
+
+</html>
+
