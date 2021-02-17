@@ -44,10 +44,16 @@
 
 @media only screen and (min-width:1009px ) and (max-width:1390px){
 
+  .iconos-t{
+    color: rgb(158, 15, 4) !important;
+    font-size: 30px !important;
+  }
+
   .card-ch{
-    background-color: rgb(164, 225, 250);
+    background-color: rgb(252, 255, 238);
     height: 180px;
-    width: 320px;
+    width: 250px;
+    border-radius: 3px;
   }
 
 }
